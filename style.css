@@ -40,16 +40,7 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-a {
-    color: #4F7248;
-    font-weight: bold;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
 
-a:hover {
-    color: #000000;
-}
 
 ul {
     list-style: none;
