@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E7DBD3; 
+    color: #000000; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4F7248; 
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #B7ADA3;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #000000; 
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: justify;
+    background-color: #CDC3BC;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #4F7248;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+ul li a {
+    font-size: 1.5em;
+    color: #000000; 
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #B7ADA3;
+}
+
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
